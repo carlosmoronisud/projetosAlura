@@ -1,0 +1,55 @@
+<index.html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <header>
+        <section class="cabeçalho">
+             <span class="titulo"><h2>Matrix Decoder 1. 0</h2></span>
+        </section>
+    </header>        
+    <main>  
+    <canvas id="canvas"></canvas>     
+        <div class="container">        
+            <form class="caixaTexto">
+                <div class="caixaTexto1">
+                    <textarea id="texto" placeholder="  Digite seu texto" maxlength="1000" name="texto" id="texto" cols="40" rows="20"></textarea>
+                </div>
+                <div class="caixaTexto2">
+                    <textarea id="textoEncriptado" placeholder=" Seu texto encriptado" maxlength="1000" nome = "textoEncriptado" rows="20" cols="40"></textarea><br><br>                        
+                </div>
+                <div class="caixaTexto3">
+                    <textarea id="textoDesencriptado" placeholder=" Seu texto desencriptado" maxlength="1000" name="textoDesencriptado" id="textoDesencriptado" cols="40" rows="20"></textarea>
+                </div>
+            </form>
+            <nav class="btn">        
+                <button id="codificar" onclick="encriptarTexto()">Codificar</button><br><br>
+                <button id="decodificar" onclick="desencriptarTexto()">Decodificar</button><br><br>
+                <button id="copiar" onclick="copiar()">Copiar</button><br><br>
+                <button id="limpar" onclick="limpar()">Limpar</button><br><br>
+            </nav>
+        </div>     
+    </main>
+    <footer> 
+        <div class="contatos">
+            <section class="links">
+                <a id="git" href="https://github.com/carlosmoronisud/my-first-repository">Git</a>
+                    <a id="linkedin" href="https://www.linkedin.com/in/carlos-moroni-garcia-36225067/#:~:text=www.linkedin.com/in/carlos%2Dmoroni%2Dgarcia%2D36225067">Linkedin</a>
+                    <a id="whatsaap" href="https://web.whatsapp.com/send/?phone=19988735558&text&type=phone_number&app_absent=0">Whatsaap</a>  
+                    <a id="instagram" href="https://www.instagram.com/cmoroniacg?igsh=dWx4aG5jMnkwNW1v">instagram</a>              
+                    <a id ="facebook" href="https://www.facebook.com/carlos.moroni.94?mibextid=ZbWKwL">facebook</a>
+                    <a id="cv" href="https://docs.google.com/document/d/1m1eYXLf3BejOtOphPmUZGEiTZzmtw0bJ/edit?usp=drive_link&ouid=109144968077532729268&rtpof=true&sd=true">Curriculo</a>
+            </section>
+            <div class="email">
+                <p>carlosmoronisud@gmail.com <br>
+                (19)-9 8873-5558 ou (16)-9 8243-5736<br>Campinas - SP - Brasil</p>
+            </div>
+        </div>
+    </footer>      
+    <script src="script/projeto-alura1.js"></script>    
+</body>
+</html>

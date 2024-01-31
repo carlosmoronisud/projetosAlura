@@ -1,0 +1,203 @@
+*{
+    
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    flex-direction: column;
+    align-items: center;
+    background-color: #6464e4;
+    color: white;
+    height: 100vh;
+    
+    box-sizing: content-box;
+    width: 100%;
+
+    box-sizing: content-box;
+    width: 100%;
+    
+    padding: 5px;
+
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #00001a 1px;
+    padding: 5px;      
+    text-align: center ;
+}
+footer {    
+    bottom: 0;
+    width: 100%;
+    height: 8rem;
+   
+}
+.cabeçalho{    
+    background-color: black;
+    margin: 0.6rem;
+    box-sizing: content-box;
+    
+}
+.titulo, .email{
+   color: white;
+   text-align: center;
+   margin-top: 0.6rem;
+
+}
+#canvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    z-index: -2;
+}
+.caixaTexto{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 1rem;    
+}
+.contatos{
+    text-align: center;
+    background-color: #000000;    
+    margin: 10px;
+    opacity: 0.6;
+    box-sizing: content-box;
+    padding: 10px;    
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    border-radius: 1rem;
+    margin-top: 0.6rem;
+    font-size: 1.25rem; 
+       
+}
+.btn{
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin: 3rem;    
+}
+#copiar,
+#codificar,
+#decodificar,
+#limpar{
+    box-sizing: content-box;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    font-size: 1.2rem;
+    border-color: white;    
+    border-radius: 0.3rem;       
+    padding: 2px;
+    cursor: pointer;
+}
+#cv{
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    background-color: #00001a;
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+
+#git{
+    color:  #c9c626;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    background-color: #00001a;
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+#facebook{
+    color:  #3b5998;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    background-color: #00001a;
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+#instagram{
+    color: #9b3f72;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    background-color: #00001a;
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+#whatsaap{
+    color: rgb(42, 209, 42);
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    background-color: #00001a;
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+#linkedin{
+    color: #0e76a8 ;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    background-color: #00001a;
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+#texto,
+#textoEncriptado,
+#textoDesencriptado{
+    box-sizing: content-box;
+    width: 100%;
+    border-color: rgb(12, 11, 11);    
+    border-radius: 0.3rem;  
+    border: 0.3rem black; 
+}
+@media(max-width:450px){
+    .btn{
+        flex-direction: column;
+        gap: 1px;
+        overflow: auto;
+    }
+}
+@media(max-width:650px){
+    .links{
+        flex-direction: column;
+        gap: 1px;
+        overflow: auto;
+    }
+}
+@media(max-width:450px){
+    .btn{
+        flex-direction: column;
+        gap: 1px;
+        overflow: auto;
+    }
+}
+@media(min-width:650px){
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 8rem;
+         
+    }
+}
+
+
+
+
+
