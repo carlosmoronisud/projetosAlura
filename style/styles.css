@@ -196,6 +196,17 @@ footer {
          
     }
 }
+@media (max-height: 570px) {
+    .caixaTexto{               
+        height: 40%;        
+    }    
+}
+@media (min-height: 800px) and (min-width: 600px) {
+    .caixaTexto{               
+        height: 50%;        
+    }    
+}
+
 
 
 
