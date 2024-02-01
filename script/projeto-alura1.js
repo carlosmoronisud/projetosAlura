@@ -31,7 +31,8 @@ function desencriptar (chaveDesencriptacao) {
   }
   function copiar() {
     let campoTexto = document.getElementById('textoEncriptado');
-    campoTexto.select();    
+    campoTexto.select();
+    document.execCommand('copy');
 }
 function limpar() {
   document.getElementById('texto').value = '';
