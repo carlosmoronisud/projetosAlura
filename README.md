@@ -2,7 +2,7 @@
 
 Projeto Alura+One, encriptador e desencriptador com as funções de encriptar, desencriptar, copiar e limpar campo.
 
-Para acessar, clique [neste link](https://pessoal-6cen.vercel.app/).
+Para acessar, clique [neste link](https://carlosmoronisud.github.io/projetosAlura/).
 
 ## Funcionalidades
 
